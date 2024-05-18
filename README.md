@@ -1,6 +1,6 @@
 # Smart Attendance System using OpenCV
 ## Getting Started
-How to use
+### How to use
 ```    
 cd smart-attendance-system
 ```
