@@ -5,13 +5,21 @@ How to use
 cd smart-attendance-system
 ```
  - Create dataset of face images.
- ```python3 new_entry.py```
+ ```
+ python3 new_entry.py
+ ```
  - Extract facial embeddings.
-```python3 extract_embeddings.py```
+```
+python3 extract_embeddings.py
+```
  - Train the SVM model
-```python3 train_model.py --recognizer output/recognizer.joblib --le output/le.joblib```
- - Test the model
-```python3 app.py```
+```
+python3 train_model.py --recognizer output/recognizer.joblib --le output/le.joblib
+```
+ - Test the model/ Run app.
+```
+python3 app.py
+```
 
 ## Prerequisites
 
